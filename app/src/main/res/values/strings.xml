@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LogicGames</string>
+    <string name="start">To the games list</string>
+    <string name="greeting">Choose a game to start</string>
+    <string name="top">Leaderboard</string>
+    <string name="exit">Exit</string>
 </resources>
