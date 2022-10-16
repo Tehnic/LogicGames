@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LogicGames</string>
+    <string name="start">Uz spēles sarakstu</string>
+    <string name="exit">Iziet</string>
+    <string name="top">Labākie rezultāti</string>
+</resources>

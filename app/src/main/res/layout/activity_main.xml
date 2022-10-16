@@ -58,7 +58,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/gbFlag"
+        android:id="@+id/languageButton"
         android:layout_width="101dp"
         android:layout_height="45dp"
         android:layout_marginStart="4dp"

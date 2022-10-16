@@ -1,4 +1,4 @@
-<vector android:height="320dp" android:viewportHeight="30"
+<vector android:height="480dp" android:viewportHeight="30"
     android:viewportWidth="60" android:width="640dp" xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
         <clip-path android:pathData="M0,0v30h60V0z"/>
