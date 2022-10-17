@@ -3,4 +3,12 @@
     <string name="start">To the games list</string>
     <string name="top">Leaderboard</string>
     <string name="exit">Exit</string>
+    <string name="gameslist">Games List</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string-array name="gamesNames">
+        <item>Find Pair</item>
+        <item>Math Quiz</item>
+        <item>Follow the color</item>
+    </string-array>
 </resources>

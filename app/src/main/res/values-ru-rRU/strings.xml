@@ -4,4 +4,5 @@
     <string name="start">К списку игр</string>
     <string name="top">Таблица лидеров</string>
     <string name="exit">Выход</string>
+    <string name="gameslist">Список игр</string>
 </resources>

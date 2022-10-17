@@ -1,6 +1,8 @@
 package com.example.logicgames;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -11,16 +13,29 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import java.util.Locale;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button startButton, topButton, exitButton;
     ImageView languageButton;
-    Configuration config;
+    Context context;
+    Configuration config = context.getResources().getConfiguration();
+    private void HideSystemUI() {
+        View decorView = getWindow().getDecorView();
+        int newUIoptions = decorView.getSystemUiVisibility();
+        newUIoptions |= View.SYSTEM_UI_FLAG_LOW_PROFILE;
+        newUIoptions |= View.SYSTEM_UI_FLAG_FULLSCREEN;
+        newUIoptions |= View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
+        newUIoptions |= View.SYSTEM_UI_FLAG_IMMERSIVE;
+        newUIoptions |= View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY;
+        decorView.setSystemUiVisibility(newUIoptions);
+        Objects.requireNonNull(getSupportActionBar()).hide();
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        HideSystemUI();
         config = new Configuration(getResources().getConfiguration());
         getResources().updateConfiguration(config,getResources().getDisplayMetrics());
         setContentView(R.layout.activity_main);
@@ -51,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (languageButton.getTag().equals("en")) {
                     languageButton.setImageResource(R.drawable.ru);
                     languageButton.setTag("ru");
-                    config.locale = Locale.forLanguageTag("ru");
                 } else if (languageButton.getTag().equals("ru")) {
                     languageButton.setImageResource(R.drawable.lv);
                     languageButton.setTag("lv");
