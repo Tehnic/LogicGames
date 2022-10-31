@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="medium">
+        <item>@drawable/m1</item>
+        <item>@drawable/m2</item>
+        <item>@drawable/m3</item>
+        <item>@drawable/m4</item>
+        <item>@drawable/m5</item>
+        <item>@drawable/m6</item>
+        <item>@drawable/m7</item>
+        <item>@drawable/m8</item>
+        <item>@drawable/m9</item>
+        <item>@drawable/m10</item>
+        <item>@drawable/m11</item>
+        <item>@drawable/m12</item>
+        <item>@drawable/m13</item>
+        <item>@drawable/m14</item>
+        <item>@drawable/m15</item>
+        <item>@drawable/m16</item>
+        <item>@drawable/m17</item>
+        <item>@drawable/m18</item>
+        <item>@drawable/m19</item>
+        <item>@drawable/m20</item>
+        <item>@drawable/m21</item>
+        <item>@drawable/m22</item>
+        <item>@drawable/m23</item>
+        <item>@drawable/m24</item>
+        <item>@drawable/m25</item>
+    </array>
+
+    <array name="hard1">
+        <item>@drawable/h1a</item>
+        <item>@drawable/h2a</item>
+        <item>@drawable/h3a</item>
+        <item>@drawable/h4a</item>
+        <item>@drawable/h5a</item>
+        <item>@drawable/h6a</item>
+        <item>@drawable/h7a</item>
+        <item>@drawable/h8a</item>
+        <item>@drawable/h9a</item>
+        <item>@drawable/h10a</item>
+        <item>@drawable/h11a</item>
+        <item>@drawable/h12a</item>
+        <item>@drawable/h13a</item>
+        <item>@drawable/h14a</item>
+        <item>@drawable/h15a</item>
+        <item>@drawable/h16a</item>
+        <item>@drawable/h17a</item>
+        <item>@drawable/h18a</item>
+        <item>@drawable/h19a</item>
+        <item>@drawable/h20a</item>
+    </array>
+
+    <array name="hard2">
+        <item>@drawable/h1b</item>
+        <item>@drawable/h2b</item>
+        <item>@drawable/h3b</item>
+        <item>@drawable/h4b</item>
+        <item>@drawable/h5b</item>
+        <item>@drawable/h6b</item>
+        <item>@drawable/h7b</item>
+        <item>@drawable/h8b</item>
+        <item>@drawable/h9b</item>
+        <item>@drawable/h10b</item>
+        <item>@drawable/h11b</item>
+        <item>@drawable/h12b</item>
+        <item>@drawable/h13b</item>
+        <item>@drawable/h14b</item>
+        <item>@drawable/h15b</item>
+        <item>@drawable/h16b</item>
+        <item>@drawable/h17b</item>
+        <item>@drawable/h18b</item>
+        <item>@drawable/h19b</item>
+        <item>@drawable/h20b</item>
+    </array>
+</resources>

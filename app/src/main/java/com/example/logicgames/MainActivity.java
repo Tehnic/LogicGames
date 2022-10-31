@@ -1,26 +1,17 @@
 package com.example.logicgames;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import java.util.Locale;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button startButton, topButton, exitButton;
     ImageView languageButton;
-    Context context;
-    Configuration config = context.getResources().getConfiguration();
     private void HideSystemUI() {
         View decorView = getWindow().getDecorView();
         int newUIoptions = decorView.getSystemUiVisibility();
@@ -35,11 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        HideSystemUI();
-        config = new Configuration(getResources().getConfiguration());
-        getResources().updateConfiguration(config,getResources().getDisplayMetrics());
         setContentView(R.layout.activity_main);
-
+        HideSystemUI();
         startButton = (Button)findViewById(R.id.startButton);
         topButton = (Button)findViewById(R.id.topButton);
         exitButton = (Button)findViewById(R.id.exitButton);
@@ -69,11 +57,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 } else if (languageButton.getTag().equals("ru")) {
                     languageButton.setImageResource(R.drawable.lv);
                     languageButton.setTag("lv");
-                    config.locale = Locale.forLanguageTag("lv");
                 } else if (languageButton.getTag().equals("lv")) {
                     languageButton.setImageResource(R.drawable.gb);
                     languageButton.setTag("en");
-                    config.locale = Locale.forLanguageTag("en");
                 }
             });
         }

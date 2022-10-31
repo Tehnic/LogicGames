@@ -4,11 +4,18 @@
     <string name="top">Leaderboard</string>
     <string name="exit">Exit</string>
     <string name="gameslist">Games List</string>
+    <string name="difficultySelect">Select a difficulty!</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="startTheGame">Start the Game!</string>
+    <string name="findpairname">Find Pair</string>
+    <string name="fpeasydesc">Pair the colors</string>
+    <string name="fpmediumdesc">Pair the items</string>
+    <string name="fpharddesc">Pair the field of use</string>
+    <string name="ultraseqname">Sequencer</string>
+    <string name="clicks">Clicks: </string>
+    <string name="restart">Restart</string>
+    <string name="pause">Pause</string>
     <!-- Strings used for fragments for navigation -->
-
-    <string-array name="gamesNames">
-        <item>Find Pair</item>
-        <item>Math Quiz</item>
-        <item>Follow the color</item>
-    </string-array>
 </resources>

@@ -5,4 +5,17 @@
     <string name="exit">Iziet</string>
     <string name="top">Labākie rezultāti</string>
     <string name="gameslist">Spēles saraksts</string>
+    <string name="ultraseqname">Secība</string>
+    <string name="clicks">Klikšķi:</string>
+    <string name="restart">Restartēt</string>
+    <string name="pause">Pauze</string>
+    <string name="findpairname">Atrast pāri</string>
+    <string name="startTheGame">Sāciet spēli!</string>
+    <string name="difficultySelect">Izvēlieties sarežģītību!</string>
+    <string name="easy">Vienkārša</string>
+    <string name="medium">Vidējā</string>
+    <string name="hard">Smagā</string>
+    <string name="fpeasydesc">Savieno krāsu</string>
+    <string name="fpmediumdesc">Savieno priekšmetus</string>
+    <string name="fpharddesc">Savieno līdzīgu</string>
 </resources>

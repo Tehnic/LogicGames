@@ -5,4 +5,17 @@
     <string name="top">Таблица лидеров</string>
     <string name="exit">Выход</string>
     <string name="gameslist">Список игр</string>
+    <string name="difficultySelect">Выберите сложность!</string>
+    <string name="clicks">Клики:</string>
+    <string name="restart">Рестарт</string>
+    <string name="pause">Пауза</string>
+    <string name="fpharddesc">Совмести похожее</string>
+    <string name="fpmediumdesc">Совмести предметы</string>
+    <string name="fpeasydesc">Совмести цвета</string>
+    <string name="easy">Лёгкая</string>
+    <string name="medium">Средняя</string>
+    <string name="hard">Тяжёлая</string>
+    <string name="startTheGame">Начать игру!</string>
+    <string name="findpairname">Найди пару</string>
+    <string name="ultraseqname">Последовательность</string>
 </resources>

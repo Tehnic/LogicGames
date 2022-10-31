@@ -9,49 +9,40 @@
 
     <Button
         android:id="@+id/startButton"
-        android:layout_width="246dp"
-        android:layout_height="122dp"
+        android:layout_width="238dp"
+        android:layout_height="120dp"
         android:layout_marginStart="85dp"
-        android:layout_marginTop="403dp"
+        android:layout_marginTop="540dp"
         android:layout_marginEnd="85dp"
-        android:layout_marginBottom="276dp"
         android:background="#F57F17"
         android:text="@string/start"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/topButton"
-        android:layout_width="192dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="315dp"
-        android:layout_marginEnd="215dp"
-        android:layout_marginBottom="368dp"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="184dp"
         android:background="#F57F17"
         android:text="@string/top"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/exitButton"
-        android:layout_width="192dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="215dp"
-        android:layout_marginTop="315dp"
-        android:layout_marginBottom="368dp"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="184dp"
         android:background="#F57F17"
         android:text="@string/exit"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/topButton"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/languageButton"
@@ -86,13 +77,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.016" />
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="346dp"
         android:layout_height="396dp"
         android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="52dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
