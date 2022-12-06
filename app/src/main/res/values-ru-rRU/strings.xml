@@ -2,11 +2,11 @@
 <resources>
     <string name="app_name">LogicGames</string>
     <string name="start">К списку игр</string>
-    <string name="top">Таблица лидеров</string>
+    <string name="top">Лидеры</string>
     <string name="exit">Выход</string>
     <string name="gameslist">Список игр</string>
     <string name="difficultySelect">Выберите сложность!</string>
-    <string name="clicks">Клики:</string>
+    <string name="clicks">"Клики: "</string>
     <string name="restart">Рестарт</string>
     <string name="pause">Пауза</string>
     <string name="fpharddesc">Совмести похожее</string>
@@ -17,5 +17,17 @@
     <string name="hard">Тяжёлая</string>
     <string name="startTheGame">Начать игру!</string>
     <string name="findpairname">Найди пару</string>
-    <string name="ultraseqname">Последовательность</string>
+    <string name="seqname">Последователь</string>
+    <string name="seqdesc">Составьте цепочку</string>
+    <string name="mathquizname">Викторина</string>
+    <string name="mqharddesc">Сложение, вычитание, умножение и деление</string>
+    <string name="mqeasydesc">Сложение и вычитание</string>
+    <string name="mqmediumdesc">Умножение и сложение</string>
+    <string name="mqanswerfield">Напишите ответ</string>
+    <string name="mqgameover">Игра окончена! Ваш результат:</string>
+    <string name="restartquestion">Перезапустить игру?</string>
+    <string name="sqround">Раунд: </string>
+    <string name="clickcount">"Количество кликов: "</string>
+    <string name="congrats">Поздравляем!</string>
+    <string name="paused">Игра приостановлена</string>
 </resources>

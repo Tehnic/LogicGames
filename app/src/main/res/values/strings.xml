@@ -13,9 +13,23 @@
     <string name="fpeasydesc">Pair the colors</string>
     <string name="fpmediumdesc">Pair the items</string>
     <string name="fpharddesc">Pair the field of use</string>
-    <string name="ultraseqname">Sequencer</string>
-    <string name="clicks">Clicks: </string>
+    <string name="seqname">Sequencer</string>
+    <string name="clicks">"Clicks: "</string>
     <string name="restart">Restart</string>
     <string name="pause">Pause</string>
+    <string name="seqdesc">Make a chain</string>
+    <string name="mathquizname">Math Quiz</string>
+    <string name="mqeasydesc">Addition and subtraction</string>
+    <string name="mqmediumdesc">Multiplication and division</string>
+    <string name="mqharddesc">Addition, subtraction, multiplication and division</string>
+    <string name="mqtimer" translatable="false">60</string>
+    <string name="mqmath" translatable="false">2+2 =</string>
+    <string name="mqanswerfield">Enter an answer</string>
+    <string name="mqgameover">Game over! Your result is:</string>
+    <string name="restartquestion">Restart the game?</string>
+    <string name="sqround">Round: </string>
+    <string name="clickcount">"Clicks count: "</string>
+    <string name="congrats">Congratulations!</string>
+    <string name="paused">Game paused</string>
     <!-- Strings used for fragments for navigation -->
 </resources>

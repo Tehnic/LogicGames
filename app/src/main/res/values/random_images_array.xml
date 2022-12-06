@@ -30,47 +30,87 @@
 
     <array name="hard1">
         <item>@drawable/h1a</item>
+        <item>0</item>
         <item>@drawable/h2a</item>
+        <item>1</item>
         <item>@drawable/h3a</item>
+        <item>2</item>
         <item>@drawable/h4a</item>
+        <item>3</item>
         <item>@drawable/h5a</item>
+        <item>4</item>
         <item>@drawable/h6a</item>
+        <item>5</item>
         <item>@drawable/h7a</item>
+        <item>6</item>
         <item>@drawable/h8a</item>
+        <item>7</item>
         <item>@drawable/h9a</item>
+        <item>8</item>
         <item>@drawable/h10a</item>
+        <item>9</item>
         <item>@drawable/h11a</item>
+        <item>10</item>
         <item>@drawable/h12a</item>
+        <item>11</item>
         <item>@drawable/h13a</item>
+        <item>12</item>
         <item>@drawable/h14a</item>
+        <item>13</item>
         <item>@drawable/h15a</item>
+        <item>14</item>
         <item>@drawable/h16a</item>
+        <item>15</item>
         <item>@drawable/h17a</item>
+        <item>16</item>
         <item>@drawable/h18a</item>
+        <item>17</item>
         <item>@drawable/h19a</item>
+        <item>18</item>
         <item>@drawable/h20a</item>
+        <item>19</item>
     </array>
 
     <array name="hard2">
         <item>@drawable/h1b</item>
+        <item>0</item>
         <item>@drawable/h2b</item>
+        <item>1</item>
         <item>@drawable/h3b</item>
+        <item>2</item>
         <item>@drawable/h4b</item>
+        <item>3</item>
         <item>@drawable/h5b</item>
+        <item>4</item>
         <item>@drawable/h6b</item>
+        <item>5</item>
         <item>@drawable/h7b</item>
+        <item>6</item>
         <item>@drawable/h8b</item>
+        <item>7</item>
         <item>@drawable/h9b</item>
+        <item>8</item>
         <item>@drawable/h10b</item>
+        <item>9</item>
         <item>@drawable/h11b</item>
+        <item>10</item>
         <item>@drawable/h12b</item>
+        <item>11</item>
         <item>@drawable/h13b</item>
+        <item>12</item>
         <item>@drawable/h14b</item>
+        <item>13</item>
         <item>@drawable/h15b</item>
+        <item>14</item>
         <item>@drawable/h16b</item>
+        <item>15</item>
         <item>@drawable/h17b</item>
+        <item>16</item>
         <item>@drawable/h18b</item>
+        <item>17</item>
         <item>@drawable/h19b</item>
+        <item>18</item>
         <item>@drawable/h20b</item>
+        <item>19</item>
     </array>
 </resources>

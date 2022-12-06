@@ -3,10 +3,10 @@
     <string name="app_name">LogicGames</string>
     <string name="start">Uz spēles sarakstu</string>
     <string name="exit">Iziet</string>
-    <string name="top">Labākie rezultāti</string>
+    <string name="top">Labākie</string>
     <string name="gameslist">Spēles saraksts</string>
-    <string name="ultraseqname">Secība</string>
-    <string name="clicks">Klikšķi:</string>
+    <string name="seqname">Secība</string>
+    <string name="clicks">"Klikšķi: "</string>
     <string name="restart">Restartēt</string>
     <string name="pause">Pauze</string>
     <string name="findpairname">Atrast pāri</string>
@@ -18,4 +18,16 @@
     <string name="fpeasydesc">Savieno krāsu</string>
     <string name="fpmediumdesc">Savieno priekšmetus</string>
     <string name="fpharddesc">Savieno līdzīgu</string>
+    <string name="seqdesc">Izveidojiet ķēdi</string>
+    <string name="mathquizname">Viktorīna</string>
+    <string name="mqharddesc">Pievienošana, atņemšana, reizināšana un dalīšana</string>
+    <string name="mqeasydesc">Pievienošana un atņemšana</string>
+    <string name="mqmediumdesc">Reizināšana un dalīšana</string>
+    <string name="mqanswerfield">Ievadiet atbildi</string>
+    <string name="mqgameover">Spēle ir beigusies! Jūsu rezultāts:</string>
+    <string name="restartquestion">Restartējiet spēli?</string>
+    <string name="sqround">Raunds: </string>
+    <string name="clickcount">"Klīkšķu skaits: "</string>
+    <string name="congrats">Apsveicam!</string>
+    <string name="paused">Spēle pauzēta</string>
 </resources>
